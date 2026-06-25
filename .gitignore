@@ -1,0 +1,17 @@
+# dependências
+node_modules/
+
+# build do Next.js
+.next/
+out/
+
+# variáveis de ambiente — NUNCA commitar
+.env
+.env.local
+.env*.local
+
+# dados brutos (arquivo grande demais para o GitHub)
+*.csv
+
+# logs
+npm-debug.log*
