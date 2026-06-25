@@ -39,12 +39,6 @@ Em vez de criar uma API intermediária, o Server Component conecta ao MySQL com 
 **TypeScript com React**
 Interfaces para tipar o retorno de cada query SQL, props tipadas nos componentes, e `import type` para importações que existem apenas em tempo de compilação. O compilador aponta inconsistências antes de rodar o código.
 
-**Variáveis de ambiente e segurança básica**
-Credenciais em `.env.local`, excluído do Git via `.gitignore`. Em produção, seriam injetadas pelo ambiente de deploy.
-
-**Ecossistema npm**
-`package.json` como contrato de dependências, `node_modules/` como instalação local recriável, diferença entre `dev`/`build`/`start`, e como auditar vulnerabilidades com `npm audit`.
-
 ## Estrutura
 
 ```
